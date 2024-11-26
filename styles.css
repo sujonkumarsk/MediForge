@@ -118,9 +118,7 @@ a:hover {
 
 
 
-
-
-/* General Styles for Dashboard page*/
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -215,4 +213,3 @@ button {
 button:hover {
     background: #a05210;
 }
-
