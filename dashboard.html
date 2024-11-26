@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Profile Info in the Corner -->
+    <header>
+        <div class="profile-container">
+            <p>Welcome, <span id="username">Shimanta Porosh sujon</span></p>
+            <a href="profile.html">View Profile</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="block-layout">
+            <!-- BMI Section -->
+            <section class="block">
+                <h2>Your BMI</h2>
+                <p id="bmi-result">BMI: <span>22.3</span></p>
+            </section>
+
+            <!-- Health Tips Section -->
+            <section class="block">
+                <h2>Health Tips</h2>
+                <ul>
+                    <li>Drink at least 8 glasses of water daily.</li>
+                    <li>Exercise for 30 minutes every day.</li>
+                    <li>Maintain a balanced diet rich in fruits and vegetables.</li>
+                </ul>
+            </section>
+
+            <!-- Disease Detection Section -->
+            <section class="block">
+                <h2>Disease Detection</h2>
+                <p>Upload an image or describe your symptoms to detect potential diseases.</p>
+                <form>
+                    <input type="file" accept="image/*">
+                    <textarea placeholder="Describe your symptoms"></textarea>
+                    <button type="submit">Detect</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
